@@ -2,8 +2,8 @@
   --white-color: #ffff;
   --red-color: #FF675D;
   --gray-color: #505050;
+  --little-gray-color: rgb(151, 151, 151);
   --green-color: #32CF84;
-  --orange-color: #FF8730;
   --yellow-color: #FFC700;
 }
 
@@ -27,12 +27,12 @@ body {
   background-color: var(--green-color);
 }
 
-.gray {
-  background-color: var(--gray-color);
+.little-gray {
+  background-color: var(--little-gray-color);
 }
 
-.orange {
-  background-color: var(--orange-color);
+.gray {
+  background-color: var(--gray-color);
 }
 
 .yellow {
@@ -143,9 +143,10 @@ header hr {
 }
 
 .content .day p {
-  width: 46px;
+  width: 80px;
   height: 20px;
   color: #ffff;
+  text-align: center;
   font-family: 'SUIT';
   font-style: normal;
   font-weight: 700;
